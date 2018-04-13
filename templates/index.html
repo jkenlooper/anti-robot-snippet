@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Anti-robot snippet demo</title>
+  </head>
+  <body>
+
+    <h1>
+      Anti-robot snippet demo
+    </h1>
+
+    <p>
+    Using the RECAPTCHA_PUBLIC_KEY
+    (<code>
+      {{ config.RECAPTCHA_PUBLIC_KEY }}
+    </code>)
+    set in the config.
+    </p>
+
+    <div id="secret-stuff-container" data-sitekey="{{ config.RECAPTCHA_PUBLIC_KEY }}">
+      <small>
+        The <em>secret stuff</em> here is shown just to humans.  Sorry robots.
+      </small>
+      {# secret stuff content shown here #}
+      {# recaptcha conditionally shown here #}
+    </div>
+
+    <script src="{{ url_for('static', filename='anti-robot-snippet-example.js') }}"></script>
+
+  </body>
+</html>

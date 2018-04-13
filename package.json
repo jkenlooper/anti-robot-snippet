@@ -1,0 +1,23 @@
+{
+  "name": "anti-robot-snippet",
+  "version": "0.1.0",
+  "description": "Include content into a webpage for just the humans that are not robots.",
+  "scripts": {
+    "test": "./node_modules/tap/bin/run.js static/anti-robot-snippet-example.spec.js"
+  },
+  "//scripts.test": "Note that the './node_modules/tap/bin/run.js' is being used instead of simply 'tap'.  This is workaround for the issue here: https://github.com/tapjs/node-tap/issues/409 (I think).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkenlooper/anti-robot-snippet.git"
+  },
+  "author": "Jake Hickenlooper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkenlooper/anti-robot-snippet/issues"
+  },
+  "homepage": "https://github.com/jkenlooper/anti-robot-snippet#readme",
+  "devDependencies": {
+    "jsdom": "^11.7.0",
+    "tap": "^11.1.3"
+  }
+}
