@@ -2,3 +2,8 @@
 .env
 /node_modules
 /package-lock.json
+/bin/
+/include/
+/lib/
+/local/
+/share/
