@@ -1,10 +1,6 @@
 # Anti-robot Snippet
 
-[![Build Status](https://travis-ci.com/jkenlooper/anti-robot-snippet.svg?branch=develop)](https://travis-ci.com/jkenlooper/anti-robot-snippet)
-
 Include content into a webpage for just the humans that are not robots.
-
-Original implementation that I did for [Awesome Mud Works contact page](http://awesomemudworks.com/contact/) .  
 
 Note that this is mostly a simple demo app and I didn't include some files to
 avoid cluttering up the repo.  That being said, it should be easy enough to run
